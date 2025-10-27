@@ -1,0 +1,11 @@
+- name: 博主A
+  url: https://example1.com
+  avatar: /uploads/background.jpg
+  description: 技术博客，分享编程心得
+  color: "#3498db"
+
+- name: 博主B  
+  url: https://example2.com
+  avatar: /uploads/background3.jpg
+  description: 个人随笔，生活感悟
+  color: "#e74c3c"
