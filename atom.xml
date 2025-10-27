@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-10-27T08:15:54.595Z</updated>
+  <updated>2025-10-27T12:54:40.463Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,18 +18,17 @@
   
   <entry>
     <title>文章的标题</title>
-    <link href="http://example.com/url%E4%B8%AD%E7%9A%84%E5%90%8D%E5%AD%97%EF%BC%88%E6%96%87%E4%BB%B6%E5%90%8D%EF%BC%89"/>
-    <id>http://example.com/url%E4%B8%AD%E7%9A%84%E5%90%8D%E5%AD%97%EF%BC%88%E6%96%87%E4%BB%B6%E5%90%8D%EF%BC%89</id>
+    <link href="http://example.com/2025/10/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2025/10/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2025-10-27T08:08:47.406Z</published>
-    <updated>2025-10-27T08:15:54.595Z</updated>
+    <updated>2025-10-27T12:54:40.463Z</updated>
     
-    <content type="html"><![CDATA[<p>正文内容</p>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">666</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;正文内容&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;</summary>
       
     
     
