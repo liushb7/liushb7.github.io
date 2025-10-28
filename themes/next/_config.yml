@@ -1025,7 +1025,7 @@ aplayer:
   auto:
   fixed: true
   mini: true
-  autoplay: true
+  autoplay: false
   theme: #607d8b
   loop: 'all'
   order: 'random'
