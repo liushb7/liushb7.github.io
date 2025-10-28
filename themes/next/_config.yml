@@ -369,13 +369,13 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -742,7 +742,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -1016,3 +1016,30 @@ darkmode_js:
   label: '🌓' # default: ''
   autoMatchOsTheme: true # default: true
   libUrl: # Set custom library cdn url for Darkmode.js
+
+aplayer:
+  enabled: true
+  id: 14478876443
+  server: netease
+  type: playlist
+  auto:
+  fixed: true
+  mini: true
+  autoplay: true
+  theme: #607d8b
+  loop: 'all'
+  order: 'random'
+  preload: 'auto'
+  volume: 0.7
+  mutex: true
+  listfolded: true
+  listmaxheight: 340px
+  storagename: metingjs
+  cdn:
+    css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+    js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    meting: https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js
+
+# Fireworks
+fireworks: 
+  enabled: true
