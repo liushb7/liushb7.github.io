@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2025/10/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
+<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
+<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一篇文章</title>
     <url>/2025/10/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<p>机器学习是人工智能的重要分支，它让计算机能够从数据中学习规律。</p>
@@ -70,28 +93,5 @@
       <tags>
         <tag>标签</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2025/10/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
-<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
-<p>OAuth（开放授权）是一种授权框架，它允许用户授权第三方应用程序在不共享用户名和密码的情况下访问他们在另一个服务上的受保护资源。 这使得用户可以通过一个服务登录后，在其他服务上进行操作，例如使用“Google 登录”。 OAuth 通过授予一个临时的授权令牌（而不是用户凭据）来实现这一点，该令牌允许第三方访问特定数据并有时间限制。<br>工作原理简述<br>第三方应用程序请求权限： 用户在某个第三方应用上，比如一个视频编辑网站，尝试访问他们在另一个服务（如云存储）上的照片。<br>跳转至授权服务器： 该第三方应用将用户重定向到授权服务器（例如Google 登录页面），在那里用户进行身份验证。<br>用户授权： 用户选择允许该第三方应用访问他们的特定资源（比如只是一个相册中的照片）。<br>授权服务器颁发令牌： 授权服务器不再将用户的凭据传递给第三方应用，而是向第三方应用颁发一个授权令牌。<br>第三方应用使用令牌： 第三方应用使用这个令牌向授权服务器请求访问用户的特定资源。<br>OAuth 的优势<br>提高了安全性： 用户无需将敏感的用户名和密码提供给第三方应用，降低了凭据泄露的风险。<br>限制了访问范围： 用户可以授权第三方应用仅访问特定的资源，而非全部内容。<br>授权是有限期的： 授权令牌通常有时间限制，到期后需要重新授权。<br>支持广泛的应用场景： 除了Web 应用，OAuth 也适用于API、移动应用、智能电视和家电等。<br>OAuth 与OpenID Connect (OIDC) 的区别<br>OAuth 关注授权： OAuth 主要用于授权第三方应用访问受保护资源，如“允许应用访问您的相册”。<br>OIDC 关注身份验证： OIDC 在OAuth 的基础上增加了身份验证层级，它能验证用户的身份，即“您是谁”。<br>两者的关系： OIDC 是基于OAuth 2.0 构建的，两者通常一起使用，其中识别提供者会同时使用OAuth 2.0 和OIDC。</p>
-]]></content>
   </entry>
 </search>
