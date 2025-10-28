@@ -961,7 +961,7 @@ function siteTime() {
     var todaySecond = today.getSeconds();
 
     // ！！！重要：修改下方的日期时间为您的博客上线时间 ！！！
-    var t1 = Date.UTC(2025, 9, 27, 0, 0, 0); // 年月日时分秒 (月份0-11)
+    var t1 = Date.UTC(2025, 10, 27, 0, 0, 0); // 年月日时分秒 (月份0-11)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
     var diff = t2 - t1;
     var diffYears = Math.floor(diff / years);
